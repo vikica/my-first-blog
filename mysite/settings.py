@@ -25,8 +25,6 @@ SECRET_KEY = 'vu@8=m^%#n#g=$r_2ewe5-imb61cdg%vtytifa-3j#j=9r*@x*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','vikica.pythonanywhere.com']
-
 
 # Application definition
 
@@ -120,4 +118,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
-ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere,com']
+ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com']
